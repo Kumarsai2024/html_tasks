@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* instagram */
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            margin:auto;
+        }
+        body{
+            background-color:white;
+        }
+        .first{
+            border:1px solid grey;
+            width:350px;
+            height:400px;
+            box-sizing: border-box;
+            background-color: black;
+            margin-top:20px;
+            margin-left:577px;
+        }
+        .first .insta i{
+            display:block;
+            padding-top:30px;
+            margin-top:5px;
+            color:white;
+            text-align: center;
+            font-size:50px;
+        }
+        .first .insta input{
+            display:block;
+            margin-top: 20px;
+            width:220px;
+            font-size: 8px;
+            font-weight: 100;
+            background-color: rgba(0, 0, 0, 0.508);
+            border-radius:2px;
+            padding:10px;
+            margin-left:65px;
+            margin-bottom:4px;
+            border:1px solid grey;
+        }
+        .first .insta .insta_login{
+            margin-bottom: 10px;
+            background-color: rgba(0, 0, 255, 0.916);
+            width:223px;
+            margin-left:65px;
+            margin-top:20px;
+            padding:8px;
+            border-radius:10px;
+        }
+        .first .insta p{
+            font-size: 1rem;
+            color:white;
+            text-align:center;
+            margin-bottom:15px;
+            margin-top:15px;
+        }
+        .first .insta_1 p{
+            color:white;
+            margin-top:31px;
+            text-align:center;
+        }
+        .first .insta_1 p a{
+        color:rgb(10, 78, 249);
+        text-decoration: none;
+        }
+        /* insta sign in */
+    .insta_signup{
+        border:1px solid grey;
+            width:350px;
+            height:550px;
+            box-sizing: border-box;
+            background-color: black;
+            margin-top:100px;
+            margin-left:577px;
+
+    }
+    .insta_signup .insta_signup1 i{
+            display:block;
+            padding-top:30px;
+            margin-top:5px;
+            color:white;
+            text-align: center;
+            font-size:50px;
+        }
+        .insta_signup .insta_signup1  input{
+            display:block;
+            margin-top: 20px;
+            width:220px;
+            font-size: 8px;
+            font-weight: 100;
+            background-color: rgba(0, 0, 0, 0.508);
+            border-radius:2px;
+            padding:10px;
+            margin-left:65px;
+            margin-bottom:4px;
+            border:1px solid grey;
+        }
+        .insta_signup1 .insta_signup_butt{
+            border:1px solid black;
+            background-color: rgba(0, 0, 255, 0.916);
+            width:223px;
+            margin-left:65px;
+            color:white;
+            margin-bottom:80px;
+            padding:8px;
+            border-radius:10px;
+
+        }
+        .insta_signup1 .insta_p1{
+            font-size: 1rem;
+            color:white;
+            text-align:center;
+            margin-bottom:15px;
+            margin-top:15px;
+        }
+        .insta_signup .insta_2 p{
+          
+            margin-top: 30px;
+            color:white;
+            margin-top:-50px;
+            text-align:center;
+        }
+        .insta_signup .insta_2 p a{
+        color:rgb(10, 78, 249);
+        text-decoration: none;
+        }
+        /* zomato login  */
+        .zomato{
+            border: 1px solid grey;
+            border-radius: 4px;
+            width:350px;
+            background-color:white;
+            margin:auto;
+            margin-top: 100px;
+            height:370px;
+        }
+        .zomato h3{
+            color:black;
+            padding-top:10px;
+            margin-left: 20px;
+            border-top:20px;
+            font-weight: 10;
+            font-size:30px;
+        }
+        .zomato_body{
+            background-color: beige;
+            margin-top:30px;
+            width:250px;
+            border-radius:4px;
+            margin-bottom: 10px;
+            padding:5px;
+            padding-right:-8px;
+            padding-left:-8px;
+            margin-right:80px;
+            margin-left:50px;
+        }
+        .zomato .zomato_send{
+            background-color: rgba(244, 59, 59, 0.896);
+            padding:5px;
+            border-radius: 4px;
+            color:white;
+            width:260px;
+            border:1px solid red;
+            margin-right:80px;
+            margin-left:50px;
+            margin-top:20px;
+            padding:8px;
+            font-size:1rem;
+        }
+        .zomato .zomato_conti{
+            padding:7px;
+            border-radius: 4px;
+            width:260px;
+            margin-right:80px;
+            margin-left:50px;
+            margin-top:20px;
+        }
+        .zomato .zomato_google{
+            padding:7px;
+            border-radius: 4px;
+            width:260px;
+            margin-right:80px;
+            margin-left:50px;
+            margin-top:20px;
+
+        }
+        .create{
+            margin-top:10px;
+            margin-left:10px;
+        }
+        input:focus::placeholder{
+          
+    caret-color: rgba(0, 0, 255, 0.7);
+    border:1px solid rgba(0, 0, 255, 0.616);
+    outline:1px solid rgba(0, 0, 255, 0.637);
+}
+/* zepto login */
+   .zepto{
+    width:350px;
+    height:400px;
+    margin:auto;
+    margin-top:100px;
+    background-color: rgb(96, 14, 173);
+    }
+    .zepto_body h3{
+        color:rgb(240, 9, 167);
+        font-size:4rem;
+        font-weight:bolder;
+    
+        margin-left:10px;
+
+    }
+    .zepto_body p{
+       
+        color:white;
+        margin-top:20px;
+        font-size:2rem;
+        margin-left:10px;
+        padding:10px;
+    }
+    .zepto_body input{
+       
+        margin-top:20px;
+        margin-left: 10px;
+        width:264px;
+        padding:10px;
+        border-radius: 15px;
+    }
+    .zepto_body .zepto_conti{
+        margin-top:20px;
+        margin-left: 10px;
+        width:270px;
+        padding:10px;
+        border-radius: 15px;
+        background-color: rgb(240, 9, 167);
+    }
+    .zepto_end p{
+        color:white;   
+        margin-top:20px;
+        margin-left: 10px;
+        width:270px;
+        padding:10px;
+        text-align:center;
+
+    }
+    /* flipkart login */
+
+    .flipkart{
+        background-color: white;
+        width:400px;
+    height:400px;
+    margin:auto;
+    border:1px solid white;
+    margin-top:100px;
+
+    }
+    .flipkart .flipkart_body .b2{
+        display:block;
+        margin-left:10px;
+        margin-top:20px;
+        font-size:2rem;
+    }
+    .flipkart_body input{
+    
+        margin-top:20px;
+        margin-left:10px;
+        padding:10px;
+        border-radius:5px;
+        margin-bottom:10px;
+        width:300px;
+    }
+    .flipkart_body input:focus::placeholder{
+            position: relative;
+            top:-6px;
+            font-size: 15px;
+        }
+
+    .flipkart_body p{
+      
+        margin-top:10px;
+        margin-left:10px;
+        padding:10px;
+    }
+    .flipkart_body .b1{
+        color:blue;
+    }
+    .flipkart_body .b3{
+        color:blue;
+    }
+    .flipkart_body .request{
+        margin-top:15px;
+        margin-left:30px;
+        padding:10px;
+        width:300px;
+        color:white;
+        border-radius:2px;
+    background-color:rgb(241, 104, 12);
+    }
+    .a1{
+        display:block;
+        margin-top:20px;
+        margin-left:60px;
+        padding:10px;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+    /* flipkart sign up */
+    .flipkart_signup{
+        background-color: white;
+        width:400px;
+    height:400px;
+    margin:auto;
+    border:1px solid white;
+    margin-top:100px;
+
+    }
+    .flipkart_signup .flipkart_signup_body .b5{
+        display:block;
+        margin-left:10px;
+        margin-top:20px;
+        font-size:2rem;
+    }
+    .flipkart_signup_body input{
+    
+        margin-top:20px;
+        margin-left:10px;
+        padding:10px;
+        border-radius:5px;
+        margin-bottom:10px;
+        width:300px;
+    }
+    .flipkart_signup_body input:focus::placeholder{
+            position: relative;
+            top:-6px;
+            font-size: 15px;
+        }
+
+    .flipkart_signup_body p{
+      
+        margin-top:10px;
+        margin-left:10px;
+        padding:10px;
+    }
+    .flipkart_signup_body .b6{
+        color:blue;
+    }
+    .flipkart_signup_body .b7{
+        color:blue;
+    }
+    .flipkart_signup_body .continue1{
+        margin-top:15px;
+        margin-left:30px;
+        padding:10px;
+        width:300px;
+        color:white;
+        border-radius:2px;
+    background-color:rgb(241, 104, 12);
+    }
+    .flipkart_end .existing{
+        margin-top:15px;
+        margin-left:30px;
+        padding:10px;
+        width:300px;
+        color:black;
+        border-radius:2px;
+    }
+    .a1{
+        display:block;
+        margin-top:20px;
+        margin-left:60px;
+        padding:10px;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+    /* phone pe login */
+    .login-container {
+        margin:auto;
+        margin-top:100px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            color: black;
+            width: 300px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #5400A5;
+        }
+        .input-box {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #5400A5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-btn:hover {
+            background-color: #6a00cc;
+        }
+        /*  zomato sign up  */
+        .zomato_signup{
+        
+            margin:auto;
+            border: 1px solid grey;
+            border-radius: 4px;
+            width:500px;
+            background-color:white;
+            margin:auto;
+            margin-top: 100px;
+            height:370px;
+        }
+        .zomato_signup1 h3{
+            color:black;
+            padding-top:10px;
+            margin-left: 20px;
+            border-top:20px;
+            font-weight: 10;
+            font-size:30px;
+        }
+        .zomato_signup{
+            background-color: beige;
+            margin-top:30px;
+            width:300px;
+            border-radius:4px;
+            margin-bottom: 10px;
+            padding:5px;
+            padding-right:-8px;
+            padding-left:-8px;
+            margin-right:300px;
+            margin-left:600px;
+        }
+        .zomato_signup input{
+            padding:7px;
+            border-radius: 4px;
+            width:150px;
+            margin-right:80px;
+            margin-left:50px;
+            margin-top:20px;
+        }
+        .zomato_signup1 .zomato_create{
+            background-color: rgba(244, 59, 59, 0.896);
+            padding:5px;
+            border-radius: 4px;
+            color:rgb(255, 255, 255);
+            width:150px;
+            border:1px solid red;
+            margin-right:70px;
+            margin-left:20px;
+            margin-top:20px;
+            padding:8px;
+            font-size:1rem;
+        }
+        .zomato_signup .zomato_signup1 .zomato_checkbox{
+            border:1px solid red;
+        }
+        
+        .zomato_end{
+            margin-top:10px;
+            margin-left:10px;
+        }
+        input:focus::placeholder{
+          
+    caret-color: rgba(0, 0, 255, 0.7);
+    border:1px solid rgba(0, 0, 255, 0.616);
+    outline:1px solid rgba(0, 0, 255, 0.637);
+}
+/* phone pe sign up*/
+.container {
+        margin:auto;
+        margin-top:100px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            color: black;
+            width: 350px;
+        }
+        .container h2 {
+            margin-bottom: 20px;
+            color: #5400A5;
+        }
+        .container .phonepe{
+            padding:7px;
+            border-radius: 4px;
+            width:150px;
+            margin-right:80px;
+            margin-left:50px;
+            margin-top:20px;
+        }
+        .container button{
+            width: 100px;
+            padding: 10px;
+            background-color: #5400A5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-btn:hover {
+            background-color: #6a00cc;
+        }
+
+       
+ </style>
+</head>
+<body>
+    <!-- instagram login-->
+    <form action="" class="first">
+        <div class="insta">
+            <i>Instagram</i>
+            <input type="text" placeholder="Phone number,username or email">
+            <input type="password" placeholder="Password">
+            <button class="insta_login">Log in</button>
+            <p class="forgot">Forgot password?</p>
+        </div>
+        <hr>
+        <div class="insta_1">
+            <p>Don't have an account?<a href="" id="insta_sign"> Sign up</a></p>
+        </div>
+    </form>
+    <!-- instagram signup-->
+     <form action="" class="insta_signup">
+        <div class="insta_signup1">
+            <i>Instagram</i>
+            <input type="text" placeholder="Mobile Number or Email">
+            <input type="password" placeholder="Password">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Username">
+            <p class="insta_p1">People who use our service may have uploaded<br>your contact information to Instagram.<br> Learn More<br>
+
+                By signing up, you agree to our Terms , Privacy<br>Policy and Cookies Policy .</p>
+            <button class="insta_signup_butt">Signup</button>
+        </div>
+        <div class="insta_2">
+            <p>Have an account?<br><a href="" id="insta_sign">Log in</a></p>
+        </div>
+     </form>
+    <!-- zomato login-->
+    <form action="" class="zomato">
+        <h3>Login</h3>
+        <div class="zomato_body">
+                <select>
+                    <option> +91</option>
+                    <option> +93</option>
+                    <option> +355</option>
+                    <option> +213</option>
+                    <option> +1684</option>
+                </select>
+        
+              <input type="tel" placeholder="Phone" maxlength="10" autofocus>
+          
+        </div>
+        <button class="zomato_send">Send One Time Password</button>
+        <button class="zomato_conti">Continue with Email</button>
+        <button class="zomato_google">sign in with google</button>
+        <br>
+        <br><hr>
+        <div class="create">
+            <p>New to zomato?<a href="#"> create account</a></p>
+        </div>
+
+    </form>
+    <!-- zepto login-->
+    <form action="" class="zepto">
+        <div class="zepto_body">
+           <h3>zepto</h3> 
+           <p>Groceries delivered<br> in 10 minutes</p>
+           <input type="tel" placeholder=" +91 Enter Phone Number"><br>
+           <button class="zepto_conti">Continue</button>
+        </div>
+        <div class="zepto_end">
+            <p>By continuing,you agree to our<br>
+                Terms of Service & Privacy Policy
+
+            </p>
+        </div>
+  </form>
+  <!--flipkart login-->
+  <form action="" class="flipkart">
+    <div class="flipkart_body">
+        <b class="b2">Flipkart Login</b>
+        <input type="text" placeholder="Enter Email/Mobile number">
+        <p>By continuing, you agree to Filpkart's <b class="b1">Terms of Use</b> and <br><b class="b3">Privacy Policy</b></p>
+        <button class="request">Request OTP</button>
+    </div>
+  
+        <a class="a1" href="#">New to Flipkart?Create an account</a>
+  </form>
+  <!-- flipkart sign up-->
+  <form action="" class="flipkart_signup">
+    <div class="flipkart_signup_body">
+        <b class="b5">Flipkart Signup</b>
+        <input type="text" placeholder="Enter Mobile number">
+        <p>By continuing, you agree to Filpkart's <b class="b6">Terms of Use</b> and <br><b class="b7">Privacy Policy</b></p>
+        <button class="continue1">Continue</button>
+    </div>
+    <div class="flipkart_end">
+        <button class="existing">Existing User? Log in</button>
+
+    </div>
+  
+        <a class="a1" href="#">New to Flipkart?Create an account</a>
+  </form>
+ <!--phonepe login-->
+ <div class="login-container">
+    <h2>PhonePe Login</h2>
+    <input type="text" class="input-box" placeholder="Enter Mobile Number">
+    <input type="password" class="input-box" placeholder="Enter Password">
+    <button class="login-btn">Login</button>
+</div>
+<!-- phone pe sign up-->
+<div class="container">
+    <h2>Register</h2>
+    <div class="phonepe"><input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="tel" placeholder="Phone Number">
+        <input type="password" placeholder="Password"></div>
+    <button>Register</button><br>
+    <a href="#login-form" class="toggle-link">Already have an account? Login</a>
+</div>
+ <!-- zomato sign up-->
+ <form action="" class="zomato_signup">
+    <div class="zomato_signup1">
+        <h3>Signup</h3>
+        <input type="text" placeholder="Full Name" autofocus>
+        <input type="text" placeholder="Email" autofocus>
+        <input type="checkbox" class="zomato_checkbox"><br>I agree to Zomato's Terms of Service, Privacy Policy and Content Policies</input>
+        <input type="button" placeholder="create account" class="zomato_create">
+       
+    </div>
+    <div class="zomato_end">
+        <p>Already have an account?<a href="#">Login</a></p>
+    </div>
+ </form>
+</form>
+</body>
+</html>
